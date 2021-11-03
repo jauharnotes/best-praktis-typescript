@@ -28,3 +28,14 @@ interface ICar {
         make: 'Toyota',
         display() => { console.log('hi'); }
       }
+
+      // Object
+    let person: {
+   name: string;
+   age: number
+};
+
+person = {
+   name: 'John',
+   age: 25
+};
